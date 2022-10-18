@@ -1,11 +1,11 @@
 {
-    "name": "@dock-ui/context-menu",
+    "name": "@dock-ui/component",
     "version": "0.0.1",
     "type": "module",
     "repository": {
         "url": "https://github.com/ez2ui/dock-ui",
         "type": "github",
-        "directory": "/packages/context-menu"
+        "directory": "/packages/component"
     },
     "scripts": {
         "build": "tsc && vite build"
@@ -33,13 +33,13 @@
     "files": [
         "dist"
     ],
-    "main": "./dist/context-menu.umd.js",
-    "module": "./dist/context-menu.es.js",
+    "main": "./dist/component.umd.js",
+    "module": "./dist/component.es.js",
     "types": "./dist/index.d.ts",
     "exports": {
         ".": {
-            "import": "./dist/context-menu.es.js",
-            "require": "./dist/context-menu.umd.js"
+            "import": "./dist/component.es.js",
+            "require": "./dist/component.umd.js"
         }
     }
 }
